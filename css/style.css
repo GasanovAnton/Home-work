@@ -200,6 +200,11 @@
     padding: 15px 0 0 0;
 }
 
+.screenshots-figure {
+    margin: 0;
+    padding: 0;
+}
+
 .screenshots-img {
     display: block;
     float: left;
@@ -218,12 +223,14 @@
     line-height: 30px;
     font-weight: 400;
     color: #445161;
+    
 }
 
 .screenshots-list-item-description {
     font-family: Arial;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 21px;
     font-weight: 400;
     color: #333333;
+    margin: 15px 0 0 0;
 }

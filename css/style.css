@@ -21,6 +21,7 @@
     width: 100%;
     font-family: Arial;
     font-size: 60px;
+    line-height: 45px;
     font-weight: 400;
     color: #ffffff;
     margin: 0;
@@ -37,7 +38,7 @@
     line-height: 36px;
     font-weight: 400;
     color: #ffffff;
-    margin: 10px 0 0 0;
+    margin: 50px 0 0 0;
 }
 
 .main-header:after {
@@ -147,7 +148,7 @@
     min-height: 63px;
 }
 
-.pluses-product-list>li:last-child {
+.pluses-product-details:last-child {
     margin: 0;
 }
 
@@ -265,7 +266,7 @@
 .reviews-item-txt {
     box-sizing: border-box;
     margin: 0;
-    padding: 16px 20px 0 20px;
+    padding: 16px 20px 16px 20px;
     width: 480px;
     min-height: 121px;
     background-color: #ebebeb;
@@ -288,6 +289,7 @@
     font-weight: 400;
     color: #989898;
     margin: 15px 0 0 0;
+    font-style: normal;
 }
 
 .reviews-wrapper>article:last-child {

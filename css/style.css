@@ -366,14 +366,24 @@
     text-decoration: none;
     margin: auto;
     border-radius: 5px;
-}
-
-.buy-button-txt {
-    margin: auto;
     font-family: Arial;
     font-size: 18px;
     line-height: 18px;
     font-weight: 700;
     color: #445161;
     text-transform: uppercase;
+}
+
+.buy-button:hover {
+    background-color: #ebebeb;
+    color: black;
+}
+
+.buy-button:active {
+    background-color: #445161;
+    color: #fff;
+}
+
+.buy-button-txt {
+    margin: auto;
 }
